@@ -1,0 +1,31 @@
+{
+	"name": "crud-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js",
+		"prod": "NODE_ENV=production node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/etor-code/crud-app.git"
+	},
+	"keywords": [],
+	"author": "Etor Esther Etor",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/etor-code/crud-app/issues"
+	},
+	"homepage": "https://github.com/etor-code/crud-app#readme",
+	"dependencies": {
+		"dotenv": "^9.0.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.12.7",
+		"morgan": "^1.10.0"
+	},
+	"engines": {
+		"node": "14.16.1"
+	}
+}
